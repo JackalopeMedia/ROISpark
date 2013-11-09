@@ -30,45 +30,47 @@
 <body>
 	<div class="container">
 		<div class="row">
-		<!-- HEADER -->
-			<div class="col-sm-4">
-				<header class="main-header section-content">	
+<!-- HEADER -->
+			<header class="main-header section-content">
+				<div class="col-sm-8">
 					<a href="index.html" class="logo"><img src="img/Logo.png" alt="ROISpark" /></a>
-			</div>
-			<div class="col-sm-2 pull-right">	
-				<ul class="social inline">
-						<li><a href="#" class="icon-facebook"></a></li>
-						<li><a href="#" class="icon-google"></a></li>
-						<li><a href="#" class="icon-mail"></a></li>
-						<li><a href="#" class="icon-linkedin"></a></li>
-				</ul>
-			</div>
-			<div class="col-sm-2 pull-right">	
-				<ul class="social inline">
-						<h1>512.XXX.XXX</h1>
-				</ul>
-			</div>
+				</div>
+				<div class="col-sm-2">	
+					<div class="pull-right">
+						<ul class="social inline">
+								<li><a href="#" class="icon-facebook"></a></li>
+								<li><a href="#" class="icon-google"></a></li>
+								<li><a href="#" class="icon-mail"></a></li>
+								<li><a href="#" class="icon-linkedin"></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-2">
+					<div class="pull-right">	
+						<ul class="social inline">
+								<h1>512.XXX.XXX</h1>
+						</ul>
+					</div>
+				</div>
+			</header>
 		</div>
 	</div>
-			<nav class="main-nav">
-				<div class="container">
-				<ul class="inline">
-					<li><a href="about.html">About Us</a></li>
-					<li><a href="clients.html">Clients</a></li>
-					<li><a href="contactus.html">Contact Us</a></li>
-				</ul>
-			</div>
-			</nav>
-		</header>
-	</div>
-</div>
+	<nav class="main-nav">
+		<div class="container">
+		<ul class="inline">
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="clients.html">Clients</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+		</ul>
+		</div>
+	</nav>	
 
-<div class="container">
-	<div class="row-fluid">
-		<div class="lead-image"></div>
-			<section class="services">
+	<div class="container">
+		<div class="row"><!-- body and sidebar row -->
+			<div class="col-sm-9">
+				<section class="services">
 					<div class="row">
-						<div class="col-lg-8"
+						<div class="lead-image">
 							<h1>Services</h1>
 							<ul class="inline row">
 								<li><i class="icon">Paid Search</i></li>
@@ -77,103 +79,89 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-lg-8"
-							<h1>Services</h1>
+						<div class="lead-image">
 							<ul class="inline row">
-								<li><i class="icon">Conversion<br /> Optimization</i></li>
-								<li><i class="icon">Social Media Marketing</i></li>
+								<li><i class="icon">Paid Search</i></li>
+								<li><i class="icon">Analytics</i></li>
 							</ul>
 						</div>
 					</div>
+				</section>
+				<section>
+					<h1>Clients</h1>
+					<ul class="inline row">
+						<li><img src="./img/build-a-sign.png"></li>
+						<li><img src="./img/tiffs-treats.png"></li>
+						<li><img src="./img/indeed.png"></li>
+					</ul>
+					<ul class="inline row">
+						<li><img src="./img/headspring.png"></li>
+						<li><img src="./img/spare-foot.png"></li>
+						<li><img src="./img/logo-garden.png"></li>
+					</ul>	
 			</section>
 
 			<section>
-				<div class="col-lg-8"
-				<h1>Clients</h1>
-				<ul class="inline row">
-					<li><img src="./img/build-a-sign.png"></li>
-					<li><img src="./img/tiffs-treats.png"></li>
-					<li><img src="./img/indeed.png"></li>
-					<li><img src="./img/headspring.png"></li>
-					<li><img src="./img/spare-foot.png"></li>
-					<li><img src="./img/logo-garden.png"></li>
-				</ul>
-			</div>	
-			</section>
-
-			<section>
-				<div class="col-lg-8"
 					<h1>Lorem ipsum dalor</h1>
 
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed nulla ut lorem fringilla porta in at libero. Suspendisse odio diam, blandit eget ipsum condimentum, volutpat placerat justo. Vestibulum tellus turpis, suscipit vitae fringilla vitae, pellentesque ut tellus. Phasellus eleifend ac neque non consequat. Curabitur aliquet purus turpis, a feugiat felis tristique quis. Aliquam auctor erat non consectetur cursus. Aliquam pulvinar, libero a tincidunt lacinia, diam ligula dapibus quam, non tristique mi augue non nunc. Sed aliquet lorem nulla, vel lacinia dui elementum et. Suspendisse lobortis a ante nec elementum. Donec cursus quam nec mi semper, mattis ultrices quam consequat. Morbi lectus tortor, rhoncus a mollis ut, fringilla vel nibh.</p>
-				</div>
 			</section>
-		</div>
 <!-- SIDEBAR -->
-		<div class="col-xs-4">
-	<div class="top-form row">
-		<h2>Get in touch with us</h2>
-		<form action="" method="POST" class="lead-form">
-			<p>
-				<input type="text" name="lead-name" id="lead-name" placeholder="Name*" />
-			</p>
-			<p>
-				<input type="email" name="lead-email" id="lead-email" placeholder="Email*" />
-			</p>
-			<p>
-				<input type="text" name="lead-phone" id="lead-phone" placeholder="Phone*" />
-			</p>
-			<p>
-				<input type="text" name="lead-website" id="lead-website" placeholder="Website">
-			</p>
-			<p>
-				<select name="lead-dropdown" id="lead-dropdown" placeholder="Dropdown">
-					<option value="0">- Select Your Option -</option>
-					<option value="1">Option #1</option>
-					<option value="2">Option #2</option>
-					<option value="3">Option #3</option>
-				</select>
-			</p>
-			<p>
-				<textarea name="lead-comments" id="lead-comments" rows="4"></textarea>
-			</p>
-
-			<div class="cta">
-				<input type="submit" class="btn btn-primary" value="SUBMIT" />
 			</div>
-		</form>
-		<h1 class="form-number"><i class="phone">512.XXX.XXX</i></h1>
+			<div class="col-sm-3">
+				<div class="top-form">
+					<h2>Get in touch with us</h2>
+					<form action="" method="POST" class="lead-form">
+						<p><input type="text" name="lead-name" id="lead-name" placeholder="Name*" /></p>
+						<p><input type="email" name="lead-email" id="lead-email" placeholder="Email*" /></p>
+						<p><input type="text" name="lead-phone" id="lead-phone" placeholder="Phone*" /></p>
+						<p><input type="text" name="lead-website" id="lead-website" placeholder="Website"></p>
+						<p><select name="lead-dropdown" id="lead-dropdown" placeholder="Dropdown">
+							<option value="0">- Select Your Option -</option>
+							<option value="1">Option #1</option>
+							<option value="2">Option #2</option>
+							<option value="3">Option #3</option>
+						</select></p>
+						<p><textarea name="lead-comments" id="lead-comments" rows="4"></textarea></p>	
+					</form>		
+				</div>
+				<div class="cta">
+					<form action="" method="POST" class="lead-form">
+						<input type="submit" class="btn btn-primary" value="SUBMIT" />
+					</form>
+				</div>
+				<h1 class="form-number"><i class="phone">512.XXX.XXX</i></h1>
+
+
+				<div>
+					<p class="testimonial">
+						Testimonial right here.
+					</p>
+					<p class="testimonial-author">
+						- EJ Lawless, Director
+					</p>
+					<p class="testimonial">
+						Testimonial right here.
+					</p>
+					<p class="testimonial-author">
+						- Randy Varella, Director
+					</p>
+				</div>
+
+				<section>
+					<ul class="trust inline">
+						<li><img src="img/trust1.jpg"></li>
+						<li><img src="img/trust2.jpg"></li>
+					</ul>
+				</section>
+			</div>
+		</div>
 	</div>
 
-	<section>
-		<p class="testimonial">
-			Testimonial right here.
-		</p>
-		<p class="testimonial-author">
-			- EJ Lawless, Director
-		</p>
-		<p class="testimonial">
-			Testimonial right here.
-		</p>
-		<p class="testimonial-author">
-			- Randy Varella, Director
-		</p>
-	</section>
-
-	<section>
-		<ul class="trust">
-			<li><img src="img/trust1.jpg"></li>
-			<li><img src="img/trust2.jpg"></li>
-		</ul>
-	</section>
-</div>
-
-</div>
 
 
-
-
-<!--<div class="container"
+<center>
+<div class="container"
 	<footer class="main-footer">
 		<ul class="inline">
 			<li><a href="aboutus.html">About Us</a></li>
@@ -183,7 +171,8 @@
 		</ul>
 		<p>Copyright 2013 ROI Spark
 	</footer>
-</div>-->
+</div>
+</center>
 
 </body>
 </html>
