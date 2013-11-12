@@ -1731,6 +1731,73 @@ li {
   border: 1px solid #ff8119;
   color: #fff;
 }
+.top-form {
+  width: 267px;
+  height: 542px;
+  background-color: #32302b;
+}
+.top-form h1 {
+  color: #ff7300;
+  padding-top: 15px;
+}
+.top-form h2 {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  color: #fff;
+}
+.lead-form {
+  background-color: #fff;
+  border: 1px solid #e7e7e7;
+}
+.lead-form input {
+  width: 227px;
+  height: 31px;
+  border: 1px solid #e7e7e7;
+  margin-bottom: 18px;
+}
+.lead-form input:focus {
+  border: 1px solid #9f9f9f;
+}
+#lead-name {
+  margin-top: 22px;
+}
+#lead-comments {
+  width: 227px;
+  border: 1px solid #e7e7e7;
+  margin-top: 17px;
+  margin-bottom: 17px;
+}
+#lead-comments:focus {
+  border: 1px solid #9f9f9f;
+}
+#lead-dropdown {
+  width: 227px;
+  border: 1px solid #e7e7e7;
+  color: #747474;
+  height: 31px;
+}
+.btn,
+.btn-primary {
+  background-color: #ce5310;
+  color: #fff;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 24px;
+}
+.testimonial {
+  padding-top: 25px;
+  text-align: left;
+}
+.testimonial-author {
+  text-align: right;
+  color: #ff7300;
+  font-weight: 700;
+  padding-top: 5px;
+}
+.trust {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 /**************************************************************************************/
 /* UI */
 /**************************************************************************************/
