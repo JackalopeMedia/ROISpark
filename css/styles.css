@@ -1716,6 +1716,9 @@ li {
   width: 267px;
   height: 542px;
   background-color: #32302b;
+  -webkit-box-shadow: 4px 4px 0 0 #e7e7e7;
+  -moz-box-shadow: 4px 4px 0 0 #e7e7e7;
+  box-shadow: 4px 4px 0 0 #e7e7e7;
 }
 .top-form h1 {
   color: #ff7300;
@@ -1796,9 +1799,15 @@ li {
   padding-top: 75px;
   padding-left: 100px;
   text-transform: uppercase;
+  -webkit-box-shadow: 4px 3px 0 0 #e7e7e7;
+  -moz-box-shadow: 4px 3px 0 0 #e7e7e7;
+  box-shadow: 4px 3px 0 0 #e7e7e7;
 }
 .services ul li:hover {
   background-color: #ff8119;
   border: 1px solid #ff8119;
   color: #fff;
+  -webkit-box-shadow: 4px 3px 0 0 #32302b;
+  -moz-box-shadow: 4px 3px 0 0 #32302b;
+  box-shadow: 4px 3px 0 0 #32302b;
 }

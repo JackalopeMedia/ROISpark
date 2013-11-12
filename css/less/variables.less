@@ -26,9 +26,15 @@
 }
 
 .drop-shadow(@x: 0, @y: 0, @blur: 5px, @spread: 0, @alpha: .16) {
-	-webkit-box-shadow: @x @y @blur @spread rgba(0, 0, 0, @alpha);
-	-moz-box-shadow: @x @y @blur @spread rgba(0, 0, 0, @alpha);
-	box-shadow: @x @y @blur @spread rgba(0, 0, 0, @alpha);
+	-webkit-box-shadow: @x @y @blur @spread rgba(231, 231, 231, @alpha);
+	-moz-box-shadow: @x @y @blur @spread rgba(231, 231, 231, @alpha);
+	box-shadow: @x @y @blur @spread rgba(231, 231, 231, @alpha);
+}
+
+.drop-shadow-hover(@x: 0, @y: 0, @blur: 5px, @spread: 0, @alpha: .16) {
+	-webkit-box-shadow: @x @y @blur @spread rgba(50, 48, 43, @alpha);
+	-moz-box-shadow: @x @y @blur @spread rgba(50, 48, 43, @alpha);
+	box-shadow: @x @y @blur @spread rgba(50, 48, 43, @alpha);
 }
 
 .inner-shadow(@x: 0, @y: 0, @blur: 5px, @spread: 0, @alpha: .2) {
